@@ -15,7 +15,7 @@ export const SingleProducts = ({  id,  title,  category,  description,  price,  
           <CardText>{description}</CardText>
           <CardText>Price:{price}$</CardText>
 
-          <Button style={{backgroundColor: 'blue'}}>
+          <Button style={{backgroundColor: 'lightblue'}}>
             Add to card
           </Button>
         </CardBody>
